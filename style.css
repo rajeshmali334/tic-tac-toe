@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anybody", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a,#3a4452);
+}
+
+.container{
+    
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background : transparent;
+    box-shadow: 0px 3px 15px rgba(84, 86, 211, 0.5);
+}
+.game{
+    width: 210px; 
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap */
+    justify-content: space-between;
+}
+.box {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-radius: 10%;
+    color: #130606;
+    font-size: 25px;
+    box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1);
+    cursor: pointer;
+}
+#resetBtn{
+    width: 96%;
+    padding: 8px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1); 
+    color: #130606;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#new-btn{
+    width: 96%;
+    padding: 8px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1); 
+    color: #130606;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.hide{
+    display: none;
+}
+.msg-Container{
+    margin: 0;
+    padding: 0;
+    color: green;
+}
+#msg{
+    color: green;
+}
